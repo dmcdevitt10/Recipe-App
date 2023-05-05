@@ -1,0 +1,25 @@
+.container {
+    height: 330px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content {
+    height: 87%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.content h3 {
+    color: #fefdf8;
+    text-align: center;
+}
+
+.content h1 {
+    color: #d97634;
+    font-size: 2.8rem;
+}

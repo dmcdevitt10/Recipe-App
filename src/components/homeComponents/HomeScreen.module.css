@@ -1,0 +1,39 @@
+.search_section {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_btn_container {
+    background-color: #f6dfd1;
+    border-radius: 14px;
+}
+
+.search_input {
+    height: 30px;
+    width: 380px;
+    font-size: 1.1rem;
+    border-radius: 14px;
+    border: 0;
+    background-color: transparent;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #db7637;
+    background-color: transparent;
+    border: 0;
+}
+
+.recipes_container {
+    width: 100%;
+    padding-bottom: 160px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
