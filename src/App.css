@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.App {
+	position: relative;
+}
+
+header {
+	background-color: #db7533;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header h2 {
+	color: #fefdf8;
+	margin-left: 70px;
+	font-size: x-large;
+}
+
+header nav {
+	margin-right: 40px;
+}
+
+header button {
+	background-color: transparent;
+	color: #fefdf8;
+	border: 0px;
+	font-size:large;
+	margin-left: 30px;
+}
+
+header button:hover {
+	color: rgb(230, 218, 218);
+}
+
+footer {
+	background-color: #3e3e3e;
+	position: absolute;
+	bottom: 0;
+	height: 130px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.message-links__container {
+	min-height: 80px;
+	margin-left: 110px;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between
+}
+
+.message {
+	color: #fefdf8;
+	font-size: 1.3rem;
+}
+
+.icons-container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.icon-container {
+	background-color: #57808B;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo {
+	margin-right: 110px
+}
+
+.blue-btn {
+	height: 37px;
+	width: 140px;
+	background-color: rgb(102, 167, 159);
+	border: 0px;
+	color: white;
+	font-size: 18px;
+}
+
+.blue-btn:hover {
+	background-color: rgb(148, 208, 201);
+}
