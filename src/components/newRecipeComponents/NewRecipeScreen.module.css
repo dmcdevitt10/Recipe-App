@@ -1,0 +1,133 @@
+.section {
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    /* background-color: blue; */
+    height: 75%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 129px;
+    justify-content: space-between;
+}
+
+.input {
+    height: 37px;
+    font-size: 1.2rem;
+}
+
+.form h1 {
+    font-size: 2rem;
+}
+
+.name_image {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name_image input {
+    width: 45%;
+}
+
+.radio_btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.radio_btns div {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85px;
+}
+
+.radio_btns div h2 {
+   font-size: 1.6rem;
+   margin-left: 13px;
+}
+
+.radio_btns div input {
+    transform: scale(2);
+}
+
+.times {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.times input {
+    width: 31.5%;
+}
+
+.ingredients {
+    display: flex;
+    width: 100%;
+}
+
+.add_ing {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.add_ing input {
+    width: 82%;
+}
+
+.show_ing {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.show_ing ul {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.show_ing ul li {
+    display: flex;
+    width: 20px;
+    font-weight: bold;
+}
+
+.orange_btn {
+    height: 37px;
+	width: 140px;
+	background-color: #d97634;
+	border: 0px;
+	color: white;
+	font-size: 18px;
+}
+
+.orange_btn:hover {
+    background-color: #ffa86f;
+}
+
+.inst_input {
+	height: 100px;
+    font-size: 1.2rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+}
