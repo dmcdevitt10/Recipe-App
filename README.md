@@ -17,5 +17,5 @@ The home page has a featured recipe at the top of the page. This is also where a
 The recipe details page shows information about the recipe like prep time, cook time, servings, ingredients needed, and the intructions to make the recipe.
 
 ## Add Recipe Page
-![Add Recipe Page](./recipe.png)
+![Add Recipe Page](./add.png)
 The add recipe page allows you to add a recipe with an image and details like recipe name, prep time, cook time, servings, ingredients needed, and the intructions to make the recipe.
