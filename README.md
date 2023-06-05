@@ -1,4 +1,4 @@
-## Recipe App
+# Recipe App
 This is a Front End focused application that allows users to create and view recipes.
 
 ## Technologies Used
